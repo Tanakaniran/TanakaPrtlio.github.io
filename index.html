@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Association</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!------Heading------>
+
+    <section class="heading">
+        <nav>
+            <a href="index.html">PORTOFOLIO</a>
+            <div class="logo">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="toggle-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-psd">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Portofolio</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        </nav>
+
+        <!------Portofolio------>
+
+        <section>
+            <div class="container">
+                <div class="weight">
+                    <img src="luffy.jpeg">
+                </div>
+                <div class="prt-text">
+                   <h1>My <span>Portofolio</span></h1>
+                   <p>Nama saya Tanaka Nirang,saya sebagai developer frontend web<br>saya masih duduk di bangku sma kelas XI
+                    saya bersekolah di SMAN1 Langke Rembong Usia saya 16 tahun.
+                    <br>saya memulai belajar coding di tahun 2021<br>sekarang sudah genap dua tahun dan sekarang ingin menginjak tiga tahun.<br>Lorem ipsum dolor sit 
+                    amet consectetur adipisicing elit.
+                    Suscipit recusandae reprehenderit<br>debitis minus voluptatum eveniet nobis odio quaerat veniam, 
+                    provident laudantium nisi<br>nihil nam assumenda, nulla minima libero eius qui.<br>
+                    Amet maxime sunt rem!</p>
+                    <div class="btn-zero">
+                    <a href="#" class="btn">view More</a>
+                    <a href="#" class="btn">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            //* button untuk click pada navbar **/
+            var togglebtn=document.querySelector(".toggle-btn");
+            var nav=document.querySelector(".nav-psd");
+            var psd=document.querySelector(".nav-psd li");
+
+            togglebtn.addEventListener("click",function(){
+                this.classList.toggle("click");
+                nav.classList.toggle("open");
+            })
+        </script>
+
+    </section>
+
+    <!------Footer box------>
+
+    <section>
+
+        <div class="gula-merah">
+            <h1>Connect With Us</h1>
+            <p>we would love to respond to your equeries and help you succeed. Feel
+            free to get in touch with us
+            </p>
+        </div>
+        <div class="contact-box">
+            <div class="contact-kiri">
+                <h3>Send Your Request</h3>
+                <form>
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Enter Your Name">
+                        </div>
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="text" placeholder="Enter Your Number Phone">
+                        </div>
+
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="Email" placeholder="Enter Your Email">
+                        </div>
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="Your Subject">
+                        </div>
+
+                    </div>
+
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+
+                    <button type="submit">SEND</button>
+
+
+                </form>
+
+            </div>
+    </section>
+
+    <!------footer 2------>
+
+    <section>
+        
+    <div class="contact-kanan">
+        <h3>Reach Us</h3>
+
+        <table>
+            <tr>
+                <td>Email</td>
+                <td>Contactus@example.com</td>
+            </tr>
+            <tr>
+            <td>Phone</td>
+            <td>+62 85 335 427 303</td>
+            </tr>
+        </table>
+    </div>  
+</div>
+
+</section>
+
+</body>
+</html>
